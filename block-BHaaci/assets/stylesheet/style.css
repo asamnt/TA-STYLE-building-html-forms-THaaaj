@@ -1,0 +1,163 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background: url(../assets/bg-intro-desktop.png), linear-gradient(rgba(254, 132, 132, 1),rgba(254, 132, 132, 1));
+    /* opacity: 50%; */
+}
+
+
+.container{
+    max-width: 1430px;
+    margin: auto auto;
+    padding: 50px 120px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+strong{
+    font-weight: 700;
+}
+.box{
+    width: 100%;
+    background-color: #5d54a3;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    color: white;
+    border-bottom: 6px solid rgb(0, 0, 0, 0.5);
+}
+
+
+.col1{
+    width: 40%;
+}
+main{
+    display: flex;
+    align-items: center;
+}
+
+
+h1{
+    font-size: 50px;
+    font-weight: 800;
+    padding-bottom: 10px;
+    color: white;
+}
+p{
+    font-size: 12px;
+    color: white;
+}
+
+form{
+    background-color: white;
+    width: 100%;
+    margin-top: 30px;
+    padding: 30px 10px;
+    border-radius: 8px;
+    box-shadow: 0 6px rgba(129, 128, 128, 0.8);
+}
+.demo-form{
+    display: inline-block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid rgb(179, 179, 179);
+}
+.demo-form:focus{
+    border-color: rgb(77, 75, 75);
+}
+.button{
+    background-color: #37cc8a;
+    text-transform: capitalize;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    width: 100%;
+    margin: 10px 0;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: 0;
+    box-shadow: none;
+}
+form p{
+    color: rgba(129, 128, 128, 0.8);
+    font-size: 8px;
+    text-align: center;
+}
+form p a{
+    text-decoration: none;
+    color: rgba(254, 132, 132, 1);
+    font-weight: 600;
+}
+
+
+
+.text{
+    color: black;
+    font-size: 8px;
+    padding: 10px;
+    text-align: center;
+}
+.text strong{
+    color: rgb(254, 132, 132);
+}
